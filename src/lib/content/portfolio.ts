@@ -7,7 +7,7 @@
 import { StringKeyValueType } from '../types';
 
 export const socialLinks: StringKeyValueType = {
-  facebook: '##',
+  discord: 'https://discordapp.com/users/1095048883790422116',
   instagram: '##',
   twitter: 'https://twitter.com/smallet90',
   github: 'https://github.com/Vantesh',
@@ -35,6 +35,6 @@ export const seoData = {
     'Vantesh Portfolio ',
     'developer Portfolio',
     'software engineer Portfolio',
-    'software en',
+    'software engineer',
   ],
 };
