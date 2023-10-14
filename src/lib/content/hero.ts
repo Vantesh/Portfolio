@@ -2,7 +2,7 @@ import { HeroSectionType } from '@/lib/types/sections';
 import { resumeFileName } from '@/lib/utils/config';
 
 export const heroSection: HeroSectionType = {
-  subtitle: 'Hi, my name is',
+  subtitle: 'Hello, my name is',
   title: 'Victor Muthiani.',
   tagline: 'I Build innovative solutions for the web.',
   description:

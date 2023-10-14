@@ -27,10 +27,13 @@ const About = () => {
             Hi, my name is Victor Muthiani, an AI enthusiast and a junior python
             programmer.
           </p>
-          <p></p>
           <p>
-            My main focus these days venturing into mobile app development using
-            flutter.
+            I am a self-taught programmer with a passion for solving real-world
+            problems using technology.
+          </p>
+          <p>
+            My main focus these days is venturing into mobile app development
+            using flutter.
           </p>
 
           {list && (

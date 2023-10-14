@@ -14,8 +14,8 @@ export const skillsSection: SkillsSectionType = {
       },
       points: [
         'Building responsive static websites using Next.js',
-        'Building responsive Single Page Apps in React.js',
-        'Building RESTful APIs in Express',
+        'Learning backend development using Django',
+        'Building Python RESTful APIs using Flask',
       ],
       softwareSkills: [
         // iconify icons: https://icon-sets.iconify.design/
