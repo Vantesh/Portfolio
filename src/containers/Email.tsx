@@ -9,7 +9,7 @@ const Email = () => {
         href={`mailto:${author.email}`}
         className="[writing-mode:vertical-lr] font-mono tracking-widest text-xs"
       >
-        {author.email}
+        Get in touch
       </SocialLink>
     </Sidebar>
   );
