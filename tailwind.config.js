@@ -31,7 +31,7 @@ module.exports = {
       },
       backgroundImage: {
         torch:
-          'radial-gradient(525px at 50% 50%, var(--color-accent-torch), transparent 80%)',
+          'radial-gradient(525px at 50% 50%, var(--color-accent-torch), transparent 70%)',
       },
     },
   },
