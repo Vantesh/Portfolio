@@ -20,11 +20,11 @@ export const author = {
 };
 
 export const seoData = {
-  title: 'Vantesh | Software Engineer',
+  title: 'Vantesh - Software Engineer',
   description:
     'Victor muthiani is a software engineer based in Nairobi, Kenya who specializes in building (and occasionally designing) exceptional websites, applications, and everything in between.',
   author: author.name,
-  image: '/public/Vantesh.png',
+  image: '/Vantesh.png',
   url: 'https://victormuthiani.me/',
   keywords: [
     'Vantesh',
