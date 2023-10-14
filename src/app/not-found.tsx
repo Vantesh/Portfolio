@@ -8,11 +8,11 @@ const NotFound = () => {
         <ShowLottie path="/lotties/404.json" className="mx-auto" />
 
         <p className="mt-5 text-3xl capitalize md:text-4xl text-dark-2">
-          page not found
+          Page Not Found
         </p>
 
         <Button type="link" href="/" size="lg" className="mt-20" sameTab center>
-          go home
+          Go Back
         </Button>
       </div>
     </Layout>
