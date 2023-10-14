@@ -27,7 +27,7 @@ const DarkModeButton = ({
       {...rest}
     >
       <Icon
-        icon={isDarkMode ? 'carbon:sun' : 'ph:moon'}
+        icon={isDarkMode ? 'gg:sun' : 'radix-icons:moon'}
         width="26"
         height="26"
       />
