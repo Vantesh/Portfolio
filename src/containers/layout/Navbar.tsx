@@ -1,5 +1,6 @@
 'use client';
 import { navbarSection } from '@/lib/content/navbar';
+import { author } from '@/lib/content/portfolio';
 import useWindowWidth from '@/lib/hooks/use-window-width';
 import { getBreakpointsWidth } from '@/lib/utils/helper';
 
@@ -88,13 +89,11 @@ const Navbar = () => {
       initial="hidden"
       animate="show"
       id="navbar"
-      className="fixed inset-x-0 top-0 right-0 z-50 flex items-end justify-between px-8 py-4 duration-500 md:px-6 xl:px-12 backdrop-blur-lg"
+      className="fixed inset-x-0 top-0 right-0 z-50 flex items-end justify-between px-8 py-4 duration-500 md:px-6 xl:px-12 backdrop-blur-md"
     >
       <h1 className="relative text-2xl capitalize font-signature text-accent group top-1">
         <Link href="/#hero" className="block">
-          {/* uncomment to use author name */}
-          {/* {author.name} */}
-          Vantesh
+          {author.name}
           <div className="absolute bottom-1.5 left-0 h-[1px] w-0 group-hover:w-full bg-accent duration-300"></div>
         </Link>
       </h1>

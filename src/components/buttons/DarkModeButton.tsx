@@ -22,14 +22,18 @@ const DarkModeButton = ({
 
   return (
     <motion.button
-      className={`rounded-lg p-1 hover:text-accent focus:text-accent focus:outline-none focus:bg-bg-secondary cursor-pointer w-fit ${className} duration-200`}
+      className={`rounded-full hover:text-accent focus:text-accent focus:outline-none focus:bg-bg-inherit cursor-pointer w-fit ${className} duration-200`}
       onClick={clickHandler}
       {...rest}
     >
       <Icon
-        icon={isDarkMode ? 'gg:sun' : 'radix-icons:moon'}
-        width="26"
-        height="26"
+        icon={
+          isDarkMode
+            ? 'solar:sun-2-bold'
+            : 'emojione-monotone:first-quarter-moon'
+        }
+        width="29"
+        height="29"
       />
     </motion.button>
   );
