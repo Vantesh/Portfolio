@@ -6,7 +6,7 @@ export const aboutSection: AboutSectionType = {
   // Because it wasn't possible to insert anchor tags like this
   list: {
     title: 'Here are a few technologies I’ve been working with recently:',
-    items: ['Python', 'Django', 'NextJs', 'Linux', 'Bash', 'NodeJs'],
+    items: ['Python', 'Django', 'PHP', 'Linux', 'Bash', 'NodeJs'],
   },
   img: '/Vantesh.png',
 };

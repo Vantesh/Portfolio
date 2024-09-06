@@ -3,7 +3,7 @@ import { aboutSection } from '@/lib/content/about';
 import { author } from '@/lib/content/portfolio';
 import { getId } from '@/lib/utils/helper';
 
-import { AuthorImage, Link, ListItem, Wrapper } from '@/components';
+import { AuthorImage, ListItem, Wrapper } from '@/components';
 
 import { getSectionAnimation } from '@/styles/animations';
 
@@ -24,16 +24,16 @@ const About = () => {
       <main className="flex flex-col items-center gap-16 lg:items-start lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            Hi, my name is Victor Muthiani, an AI enthusiast and a junior python
-            programmer.
+            Hi, my name is Victor Muthiani,a software Engineering Graduate and a
+            junior SOC Analyst .
           </p>
           <p>
-            I am a self-taught programmer with a passion for solving real-world
+            I am a curious individual with a passion for solving real-world
             problems using technology.
           </p>
           <p>
-            My main focus these days is venturing into mobile app development
-            using flutter.
+            My main focus these days is venturing into the CyberSecurity
+            Profession.
           </p>
 
           {list && (

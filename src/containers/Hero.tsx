@@ -1,5 +1,6 @@
 'use client';
 import { heroSection } from '@/lib/content/hero';
+import { author } from '@/lib/content/portfolio';
 import useWindowWidth from '@/lib/hooks/use-window-width';
 import { getBreakpointsWidth } from '@/lib/utils/helper';
 
@@ -67,6 +68,8 @@ const Hero = () => {
         initial="hidden"
         animate="show"
         className="font-mono text-xs md:text-sm text-accent"
+        style={{ cursor: 'pointer' }}
+        onClick={() => window.open(`mailto:${author.email}`)}
       >
         {specialText}
       </motion.p>

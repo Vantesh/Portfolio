@@ -6,8 +6,8 @@ import Cursor from '@/components/ui/Cursor';
 
 import '../styles/globals.css';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import type { Metadata } from 'next';
-
 export const metadata: Metadata = {
   title: seoData.title,
   authors: [
@@ -83,6 +83,7 @@ export default function RootLayout({
         <Cursor className="hidden dark:lg:block" />
         <ThemeProvider>{children}</ThemeProvider>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
